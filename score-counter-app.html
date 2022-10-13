@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="score-counter-app.css">
+</head>
+<body>
+    <main class="container">
+        <div class="home">
+            <p>HOME</p>
+            <div class="home-score">
+                <h2 id = "home-el">0</h2>
+            </div>
+            <div>
+                <button id="home1" onclick="plus1home()">+1</button>
+                <button id="home2" onclick="plus2home()">+2</button>
+                <button id="home3" onclick="plus3home()">+3</button>
+            </div>
+        </div>
+        
+        <div>
+            <button id = "new-game-btn" onclick="newGame()">NEW GAME</button>
+        </div>
+
+        <div class="guest">
+            <p>GUEST</p>
+            <div class="guest-score">
+
+                <h2 id = "guest-el">0</h2>
+            </div>
+            <div>
+                <button id="home1" onclick="plus1guest()">+1</button>
+                <button id="home2" onclick="plus2guest()">+2</button>
+                <button id="home3" onclick="plus3guest()">+3</button>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+    <script src="score-counter-app.js"></script>
+</body>
+</html>
